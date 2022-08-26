@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo selectors and more designing</title>
+    <style>
+    body{
+        background-color: rgb(149, 199, 125);
+        
+    }
+        .container {
+            border: 3px solid red;
+            background-color: rgb(200, 243, 200);
+            padding: 34px;
+            margin: 34px auto;
+            width: 700px;
+        }
+
+        .btn {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            background-color: red;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            border-radius: 4px;
+        }
+        a:hover{
+            color: rgb(101, 58, 58);
+            background-color: rgb(220, 191, 191);
+            
+        }
+        a:visited{
+          background-color: yellow;  
+        }
+        a:active{
+            background-color: green;
+        }
+        .btn:hover{
+            color: antiquewhite;
+            background-color: rgb(101, 162, 215);
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h1>This is my heading</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium asperiores animi temporibus quas
+            provident perferendis ex, fuga veniam non accusamus numquam labore vero minima, aperiam at quis porro
+            praesentium magni eveniet repudiandae error voluptates.</p>
+        <a href="https://www.google.co.in/" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+
+</body>
+
+</html>
